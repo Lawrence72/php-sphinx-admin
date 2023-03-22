@@ -6,7 +6,7 @@ Administration tool for Sphinx Search Database
 
 # Installation
 
-To install, `composer require lawrence72/php-sphinx-admin`
+To install, `composer create-project lawrence72/php-sphinx-admin`
 
 # How to use PHP Sphinx Admin
 
