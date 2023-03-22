@@ -408,5 +408,5 @@ class explorer {
 $post_data = !empty($_POST) ? $_POST : [];
 $explorer = new explorer;
 $params = $explorer->setParams($post_data);
-
+$params['result_type'] = !empty($post_data['result_type']) ? 1 : 0;
 echo $explorer->render('index', $params);
