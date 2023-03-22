@@ -1,4 +1,9 @@
 {
+	"name": "lawrence72/php-sphinx-admin",
+	"description": "Admin tool for Sphinx Search Database",
+	"keywords": ["sphinx"],
+	"type": "project",
+	"license": ["MIT", "BSD-3-Clause", "GPL-2.0-or-later", "GPL-3.0-or-later"],
     "require": {
         "latte/latte": "^2.11"
     }
